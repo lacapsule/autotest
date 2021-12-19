@@ -152,4 +152,8 @@ footer {
     body {
         font-size: 0.8em;
     }
+    .intitule {
+        padding-left: 1%;
+        font-size: 0.9em;
+    }
 }
