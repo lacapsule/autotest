@@ -17,19 +17,18 @@ header {
     top: 0;
     flex-flow: row wrap;
     align-items: space-around;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     min-height: 3em;
     padding-top: 1%;
-    padding-left: 7%;
     background-color: black;
     z-index: 1;
 }
 img {
-    position: absolute;
-    left: 1%;
-    top: 0.6em;
-    width: 2em;
+    position: relative;
+    left: 0.3em;
+    top: 0.3em;
+    width: 1.2em;
     height: auto;
 }
 button {
@@ -88,6 +87,7 @@ article {
     flex-flow: row wrap;
     align-items: center;
     justify-content: flex-start;
+    padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
 }
