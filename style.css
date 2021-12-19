@@ -47,6 +47,7 @@ button:hover {
     box-shadow: 5px black;
     text-decoration: none;
     font-size: 0.8em;
+    cursor: pointer;
     background-color: rgb(13, 13, 59);
     color: rgb(228, 225, 51);
 }
@@ -134,6 +135,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: rgb(26, 129, 12);
     color: black;
+    cursor: pointer;
     transform-box: view-box;
 }
 input[type="submit"]:active {
